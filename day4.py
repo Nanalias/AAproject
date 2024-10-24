@@ -76,7 +76,7 @@ st.image(im, width=300)
 # DATAFRAME
 st.success("5) DATAFRAME")
 import pandas as pd
-df = pd.read_excel('sampledata.xlsx')
+df = pd.read_excel('sampleData.xlsx')
 st.dataframe(df)
 
 # BAR CHART
